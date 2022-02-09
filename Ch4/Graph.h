@@ -8,10 +8,9 @@ struct Edge {
 };
 
 class Graph {
-private:
-  std::vector<std::vector<int>> adj_list;
-  
 public:
+  std::vector<std::vector<int>> adj_list;
+
   Graph(const std::vector<Edge> &edge_list, int num_nodes);
 
   void PrintBFS (int start);
