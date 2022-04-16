@@ -7,7 +7,7 @@
 
 using namespace std;
 
-bool isPermutation (string str1, string str2){
+bool isPermutation (const string& str1, const string& str2){
   // Go through first string and add all characters to the map
   // and the number of times seen.
   // Then go though second string and remove / reduced the number of
