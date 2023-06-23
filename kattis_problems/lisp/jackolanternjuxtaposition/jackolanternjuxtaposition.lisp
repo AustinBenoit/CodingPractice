@@ -1,0 +1,10 @@
+(defun jackolanter ()
+  (let* ((eye) (nose) (mouth))
+    (setq eye (read))
+    (setq nose (read))
+    (setq mouth (read))
+    (print (* eye nose mouth) )
+    )
+  )
+
+(jackolanter)
